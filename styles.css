@@ -1,0 +1,91 @@
+@media (min-width: 1200px) {
+    #navbar {
+      position: sticky;
+      top: 0;
+      left: 0;
+  }
+}
+  
+  html {
+    box-sizing: border-box;
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #9c8972;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: darkgray;
+    color: black;
+    font-weight: bold;
+  }
+  
+  nav header {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+    color: rgb(49, 48, 60);
+  }
+  
+  nav #link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 8px 0 8px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  nav a:hover {
+    border-radius: 50%;
+  }
+  
+  nav a:visited {
+    color: black;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-bottom: 1px solid rgb(98, 71, 35);
+    padding: 20px;
+  }
+  
+  section:last-child {
+    border-bottom: 0;
+  }
+  
+  section header {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  section p {
+    text-align: justify;
+  }
+  
+  section code {
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+  }
+  
+  section ul {
+    text-align: justify;
+  }
